@@ -12,10 +12,10 @@ timeBlock.each(function(){
     var eventColor = $(this).siblings("textarea");
     //console.log(eventColor);
     if (blockTime < currentTime) {
-        eventColor.css('background-color', 'grey');
+        eventColor.css('background-color', 'lightgrey');
     }
     else if (blockTime > currentTime) {
-        eventColor.css('background-color', 'green')
+        eventColor.css('background-color', 'lightgreen')
     }
     else {
         eventColor.css('background-color', 'red')
